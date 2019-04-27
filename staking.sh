@@ -28,9 +28,9 @@ sudo free
 sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
 cd
 
-wget https://github.com/zabtc/Northern/releases/download/2.4.0/northern-2.4.0-x86_64-linux-gnu.tar.gz
-tar -xzf northern-2.4.0-x86_64-linux-gnu.tar.gz
-rm -rf northern-2.4.0-x86_64-linux-gnu.tar.gz
+wget https://github.com/northern-community/Northern/raw/c35f59dd79c6173e495f08b319dd5518f4b74a61/northern-cli.tar.gz
+tar -xzf northern-cli.tar.gz
+rm -rf northern-cli.tar.gz
 
 sudo apt-get install -y ufw
 sudo ufw allow ssh/tcp
