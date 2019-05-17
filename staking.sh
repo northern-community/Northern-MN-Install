@@ -28,7 +28,7 @@ sudo free
 sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
 cd
 
-wget https://github.com/northern-community/Northern/releases/download/untagged-8d4d75f283535b10dcc5/northern2.6.0.tar.gz
+wget https://github.com/northern-community/Northern/releases/download/2.6.0/northern2.6.0.tar.gz
 tar -xzf northern2.6.0.tar.gz
 rm -rf northern-cli.tar.gz
 
