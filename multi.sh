@@ -60,7 +60,7 @@ sudo echo ' /var/swap.img none swap sw 0 0 ' >> /etc/fstab
 cd ~ 
 sudo mkdir /root/nort
 cd /root/nort
-wget https://github.com/northern-community/Northern/releases/download/untagged-8d4d75f283535b10dcc5/northern2.6.0.tar.gz
+wget https://github.com/northern-community/Northern/releases/download/2.6.0/northern2.6.0.tar.gz
 tar -xzvf northern2.6.0.tar.gz
 sudo mv /root/nort/northernd /root/nort/northern-cli /root/nort/northern-tx /usr/local/bin
 sudo chmod 755 -R  /usr/local/bin/northern*
