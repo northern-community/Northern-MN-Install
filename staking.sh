@@ -28,7 +28,7 @@ sudo free
 sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
 cd
 
-wget https://github.com/northern-community/Northern/releases/download/2.6.1/northern_linux.2_6_1.tar.gz
+wget https://github.com/northern-community/Northern/releases/download/2.6.2/northern_linux.2_6_2.tar.gz
 tar -xzf northern_linux.2_6_1.tar.gz
 rm -rf northern_linux.2_6_1.tar.gz
 
