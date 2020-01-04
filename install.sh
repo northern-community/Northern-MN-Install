@@ -83,8 +83,8 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 clear
 
 # Set these to change the version of northern to install
-TARBALLURL="https://github.com/northern-community/Northern/releases/download/2.6.2/northern_linux.2_6_2.tar.gz"
-TARBALLNAME="northern_linux.2_6_2.tar.gz"
+TARBALLURL="https://github.com/northern-community/Northern/releases/download/3.0.0/northern_linux.3_0_0.tar.gz"
+TARBALLNAME="northern_linux.3_0_0.tar.gz"
 BOOTSTRAPURL=""
 BOOTSTRAPARCHIVE=""
 BWKVERSION="1.0.0"
