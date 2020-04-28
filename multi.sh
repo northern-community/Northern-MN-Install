@@ -79,16 +79,16 @@ echo "listen=0" >> /home/northern/.northern/northern.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):6942" >> /home/northern/.northern/northern.conf
 echo "masternodeprivkey=$privkey" >> /home/northern/.northern/northern.conf
 echo "addnode=155.138.213.33" >> /home/northern/.northern/northern.conf
-echo "addnode=45.77.82.101" >> /home/northern/.northern/northern.conf
-echo "addnode=138.68.167.127" >> /home/northern/.northern/northern.conf
-echo "addnode=207.246.86.118" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.247" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.246" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.245" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.244" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.243" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.242" >> /home/northern/.northern/northern.conf
-echo "addnode=149.56.4.241" >> /home/northern/.northern/northern.conf
+echo "addnode=194.182.67.186" >> /home/northern/.northern/northern.conf
+echo "addnode=31.14.139.25" >> /home/northern/.northern/northern.conf
+echo "addnode=212.237.58.223" >> /home/northern/.northern/northern.conf
+echo "addnode=80.211.131.213" >> /home/northern/.northern/northern.conf
+echo "addnode=94.177.160.237" >> /home/northern/.northern/northern.conf
+echo "addnode=212.237.30.81" >> /home/northern/.northern/northern.conf
+echo "addnode=80.211.54.6" >> /home/northern/.northern/northern.conf
+echo "addnode=164.68.124.106" >> /home/northern/.northern/northern.conf
+echo "addnode=144.202.46.207" >> /home/northern/.northern/northern.conf
+echo "addnode=155.138.223.190" >> /home/northern/.northern/northern.conf
 sleep 5
 echo -e "${GREEN}Configuring Wallet for second node${NC}"
 sudo mkdir /home/northern2/.northern
@@ -104,17 +104,17 @@ echo "rpcport=6944" >> /home/northern2/.northern/northern.conf
 echo "listen=0" >> /home/northern2/.northern/northern.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):6942" >> /home/northern2/.northern/northern.conf
 echo "masternodeprivkey=$privkey2" >> /home/northern2/.northern/northern.conf
-echo "addnode=155.138.213.334" >> /home/northern2/.northern/northern.conf
-echo "addnode=45.77.82.101" >> /home/northern2/.northern/northern.conf
-echo "addnode=138.68.167.127" >> /home/northern2/.northern/northern.conf
-echo "addnode=207.246.86.118" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.247" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.246" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.245" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.244" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.243" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.242" >> /home/northern2/.northern/northern.conf
-echo "addnode=149.56.4.241" >> /home/northern2/.northern/northern.conf
+echo "addnode=155.138.213.33" >> /home/northern2/.northern/northern.conf
+echo "addnode=194.182.67.186" >> /home/northern2/.northern/northern.conf
+echo "addnode=31.14.139.25" >> /home/northern2/.northern/northern.conf
+echo "addnode=212.237.58.223" >> /home/northern2/.northern/northern.conf
+echo "addnode=80.211.131.213" >> /home/northern2/.northern/northern.conf
+echo "addnode=94.177.160.237" >> /home/northern2/.northern/northern.conf
+echo "addnode=212.237.30.81" >> /home/northern2/.northern/northern.conf
+echo "addnode=80.211.54.6" >> /home/northern2/.northern/northern.conf
+echo "addnode=164.68.124.106" >> /home/northern2/.northern/northern.conf
+echo "addnode=144.202.46.207" >> /home/northern2/.northern/northern.conf
+echo "addnode=155.138.223.190" >> /home/northern2/.northern/northern.conf
 sleep 5 
 echo -e "${GREEN}Configuring Wallet for third node${NC}"
 sudo mkdir /home/northern3/.northern
@@ -131,16 +131,16 @@ echo "listen=0" >> /home/northern3/.northern/northern.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):6942" >> /home/northern3/.northern/northern.conf
 echo "masternodeprivkey=$privkey3" >> /home/northern3/.northern/northern.conf
 echo "addnode=155.138.213.33" >> /home/northern3/.northern/northern.conf
-echo "addnode=45.77.82.101" >> /home/northern3/.northern/northern.conf
-echo "addnode=138.68.167.127" >> /home/northern3/.northern/northern.conf
-echo "addnode=207.246.86.118" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.247" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.246" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.245" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.244" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.243" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.242" >> /home/northern3/.northern/northern.conf
-echo "addnode=149.56.4.241" >> /home/northern3/.northern/northern.conf
+echo "addnode=194.182.67.186" >> /home/northern3/.northern/northern.conf
+echo "addnode=31.14.139.25" >> /home/northern3/.northern/northern.conf
+echo "addnode=212.237.58.223" >> /home/northern3/.northern/northern.conf
+echo "addnode=80.211.131.213" >> /home/northern3/.northern/northern.conf
+echo "addnode=94.177.160.237" >> /home/northern3/.northern/northern.conf
+echo "addnode=212.237.30.81" >> /home/northern3/.northern/northern.conf
+echo "addnode=80.211.54.6" >> /home/northern3/.northern/northern.conf
+echo "addnode=164.68.124.106" >> /home/northern3/.northern/northern.conf
+echo "addnode=144.202.46.207" >> /home/northern3/.northern/northern.conf
+echo "addnode=155.138.223.190" >> /home/northern3/.northern/northern.conf
 sleep 5 
 echo -e "${GREEN}Configuring Wallet for 4th node${NC}"
 sudo mkdir /home/northern4/.northern
@@ -157,16 +157,16 @@ echo "listen=0" >> /home/northern4/.northern/northern.conf
 echo "externalip=$(hostname  -I | cut -f1 -d' '):6942" >> /home/northern4/.northern/northern.conf
 echo "masternodeprivkey=$privkey4" >> /home/northern4/.northern/northern.conf
 echo "addnode=155.138.213.33" >> /home/northern4/.northern/northern.conf
-echo "addnode=45.77.82.101" >> /home/northern4/.northern/northern.conf
-echo "addnode=138.68.167.127" >> /home/northern4/.northern/northern.conf
-echo "addnode=207.246.86.118" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.247" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.246" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.245" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.244" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.243" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.242" >> /home/northern4/.northern/northern.conf
-echo "addnode=149.56.4.241" >> /home/northern4/.northern/northern.conf
+echo "addnode=194.182.67.186" >> /home/northern4/.northern/northern.conf
+echo "addnode=31.14.139.25" >> /home/northern4/.northern/northern.conf
+echo "addnode=212.237.58.223" >> /home/northern4/.northern/northern.conf
+echo "addnode=80.211.131.213" >> /home/northern4/.northern/northern.conf
+echo "addnode=94.177.160.237" >> /home/northern4/.northern/northern.conf
+echo "addnode=212.237.30.81" >> /home/northern4/.northern/northern.conf
+echo "addnode=80.211.54.6" >> /home/northern4/.northern/northern.conf
+echo "addnode=164.68.124.106" >> /home/northern4/.northern/northern.conf
+echo "addnode=144.202.46.207" >> /home/northern4/.northern/northern.conf
+echo "addnode=155.138.223.190" >> /home/northern4/.northern/northern.conf
 sleep 5 
 fi
 echo "Syncing first node, please wait...";
