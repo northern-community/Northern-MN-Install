@@ -51,23 +51,23 @@ echo "server=1" >> northern.conf
 echo "daemon=1" >> northern.conf
 echo "logtimestamps=1" >> northern.conf
 echo "maxconnections=256" >> northern.conf
-echo "addnode=209.250.233.104" >> northern.conf
-echo "addnode=45.77.82.101" >> northern.conf
-echo "addnode=138.68.167.127" >> northern.conf
-echo "addnode=207.246.86.118" >> northern.conf
-echo "addnode=149.56.4.247" >> northern.conf
-echo "addnode=149.56.4.246" >> northern.conf
-echo "addnode=149.56.4.245" >> northern.conf
-echo "addnode=149.56.4.244" >> northern.conf
-echo "addnode=149.56.4.243" >> northern.conf
-echo "addnode=149.56.4.242" >> northern.conf
-echo "addnode=149.56.4.241" >> northern.conf
+echo "addnode=155.138.213.33" >> northern.conf
+echo "addnode=194.182.67.186" >> northern.conf
+echo "addnode=31.14.139.25" >> northern.conf
+echo "addnode=212.237.58.223" >> northern.conf
+echo "addnode=80.211.131.213" >> northern.conf
+echo "addnode=94.177.160.237" >> northern.conf
+echo "addnode=212.237.30.81" >> northern.conf
+echo "addnode=80.211.54.6" >> northern.conf
+echo "addnode=164.68.124.106" >> northern.conf
+echo "addnode=144.202.46.207" >> northern.conf
+echo "addnode=155.138.223.190" >> northern.conf
 echo "port=6942" >> northern.conf
 mv northern.conf .northern
 
   
 cd
-./northernd -daemon
+./northernd -daemon -resync
 sleep 30
 ./northern-cli getinfo
 sleep 5
